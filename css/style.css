@@ -1,12 +1,9 @@
-#header h1 {
+header  {
+  
   text-align: center;
 }
 
-#header p {
-  text-align: center;
-}
-
-main {
+body {
   margin: auto;
   width: 80%;
   padding-left: 20%;
@@ -28,51 +25,41 @@ main {
   width: 100%;
   clear: both;
 }
+#headphones_section img{
+  width:50%;
 
-#headphones_picture {
-  width: 40%;
-  float: left;
-  margin: 20px 0px 0px 0px;
 }
+#laptop_section img{
+  width:50%;
 
-.headphones_section img {
-  width: 100%;
+
 }
+#window_section img{
+  width:50%;
 
+}
 .laptop_section {
   width: 100%;
   clear: both;
 }
 
-#laptop_picture {
-  width: 40%;
-  float: left;
-  margin: 20px 0px 0px 0px;
-}
-
-.laptop_section img {
-  width: 100%;
-}
 
 .window_section {
   width: 100%;
   clear: both;
 }
 
-.window_section img {
-  width: 100%;
-}
 
-#window_picture {
+.picture {
   width: 40%;
   float: left;
-  margin: 20px 0px 0px 0px;
+  margin-top:20px;
 }
 
-#text {
+.text {
   width: 50%;
   float: left;
-  margin: 0px 0px 0px 10px;
+  margin-left:10px;
 }
 
 .clearfix:after {
